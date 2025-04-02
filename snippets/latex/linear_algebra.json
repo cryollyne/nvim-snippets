@@ -1,0 +1,34 @@
+{
+    "vector": {
+        "prefix": ["vv"],
+        "body": [
+            "\\vec{${1:v}}$0"
+        ],
+        "description": "variable with vector arrow on top"
+    },
+    "Matrix 2x2": {
+        "prefix": ["mat2"],
+        "body": [
+            "\\begin{bmatrix}",
+            "    ${1:a} & ${2:b} \\\\\\",
+            "    ${3:c} & ${4:d}",
+            "\\end{bmatrix}"
+        ]
+    },
+    "transform": {
+        "prefix": ["transform", "T:"],
+        "body": ["T: ${1:\\mathbb{R\\}^n} \\mapsto ${2:\\mathbb{R\\}^m}"]
+    },
+    "transform A": {
+        "prefix": ["transform A", "TA:"],
+        "body": ["T_{${1:A}}: ${2:\\mathbb{R\\}^n} \\mapsto ${3:\\mathbb{R\\}^m}"]
+    },
+    "basis of a vector": {
+        "prefix": ["basis"],
+        "body": ["[${v:1}]_${2:B}"]
+    },
+    "set of vectors": {
+        "prefix": ["vset"],
+        "body": ["\\{{${1:v}}_{${2:1}},\\dots,{${1:v}}_{${3:n}}\\\\}"]
+    }
+}

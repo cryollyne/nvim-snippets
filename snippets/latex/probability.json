@@ -1,0 +1,6 @@
+{
+    "E[]": {
+        "prefix": ["E[]", "expected"],
+        "body": ["\\mathbb{E}[${1:X}]"]
+    }
+}

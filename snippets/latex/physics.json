@@ -1,0 +1,23 @@
+{
+    "coefficient of restitution": {
+        "prefix": ["corest"],
+        "body": ["coefficient of restitution"]
+    },
+    "coefficient of friction": {
+        "prefix": ["cofric"],
+        "body": ["coefficient of friction"]
+    },
+
+    "Rotational Acceleration": {
+        "prefix": ["ra"],
+        "body": ["\\alpha_\\vartheta"]
+    },
+    "Rotational Velocity": {
+        "prefix": ["rv"],
+        "body": ["\\omega_\\vartheta"]
+    },
+    "Rotational Position": {
+        "prefix": ["rq"],
+        "body": ["\\vartheta"]
+    }
+}

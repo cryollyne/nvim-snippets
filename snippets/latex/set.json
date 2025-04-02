@@ -1,0 +1,75 @@
+{
+    "Natural Numbers": {
+        "prefix": ["natural", "N"],
+        "body": [
+            "\\mathbb{N}"
+        ]
+    },
+    "Positive Integers": {
+        "prefix": ["pinteger", "Z+"],
+        "body": [
+            "\\mathbb{Z}^+"
+        ]
+    },
+    "Integers": {
+        "prefix": ["integer", "Z"],
+        "body": [
+            "\\mathbb{Z}"
+        ]
+    },
+    "Real Numbers": {
+        "prefix": ["real", "R"],
+        "body": [
+            "\\mathbb{R}"
+        ]
+    },
+    "Complex Numbers": {
+        "prefix": ["complex", "C"],
+        "body": [
+            "\\mathbb{C}"
+        ]
+    },
+
+    "R-1": {
+        "prefix": ["r1"],
+        "body": [
+            "$\\mathbb{R}^1$"
+        ]
+    },
+    "R-2": {
+        "prefix": ["r2"],
+        "body": [
+            "$\\mathbb{R}^2$"
+        ]
+    },
+    "R-3": {
+        "prefix": ["r3"],
+        "body": [
+            "$\\mathbb{R}^3$"
+        ]
+    },
+    "R-4": {
+        "prefix": ["r4"],
+        "body": [
+            "$\\mathbb{R}^4$"
+        ]
+    },
+    "Z-n": {
+        "prefix": ["zn"],
+        "body": [
+            "\\mathbb{Z}^${1:n}"
+        ]
+    },
+    "R-n": {
+        "prefix": ["rn"],
+        "body": [
+            "\\mathbb{R}^${1:n}"
+        ]
+    },
+    "C-n": {
+        "prefix": ["cn"],
+        "body": [
+            "\\mathbb{C}^${1:n}"
+        ]
+    }
+}

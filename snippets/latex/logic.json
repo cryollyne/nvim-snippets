@@ -1,0 +1,22 @@
+{
+    "Logical Negation": {
+        "prefix": ["not", "neg"],
+        "body": ["\\neg"]
+    },
+    "Logical Conjunction": {
+        "prefix": ["conj", "and"],
+        "body": ["\\wedge"]
+    },
+    "Logical Disjunction": {
+        "prefix": ["disj", "or"],
+        "body": ["\\vee"]
+    },
+    "Logical Implication": {
+        "prefix": ["implies"],
+        "body": ["\\rightarrow"]
+    },
+    "Logical Exclusive Disjunction": {
+        "prefix": ["xor"],
+        "body": ["\\oplus"]
+    }
+}

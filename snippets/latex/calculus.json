@@ -1,0 +1,52 @@
+{
+    "derivative": {
+        "prefix": ["ddx"],
+        "body": ["\\frac{d}{d${1:x}}"]
+    },
+    "derivative y": {
+        "prefix": ["dydx"],
+        "body": ["\\frac{d${1:y}}{d${2:x}}"]
+    },
+    "partial": {
+        "prefix": ["partial"],
+        "body": ["\\partial"]
+    },
+    "partial derivative": {
+        "prefix": ["pypx"],
+        "body": ["\\frac{\\partial ${1:y}}{\\partial ${2:x}}"]
+    },
+    "partial derivative x": {
+        "prefix": ["ppx"],
+        "body": ["\\frac{\\partial}{\\partial ${1:x}}"]
+    },
+
+    "limit as x approches": {
+        "prefix": ["limx"],
+        "body": ["\\lim_{${1:x}\\to ${2:\\infty}}"]
+    },
+    "limit derivative": {
+        "prefix": ["limh"],
+        "body": ["\\lim_{h\\to 0}"]
+    },
+
+    "definite integral": {
+        "prefix": ["intd"],
+        "body": ["\\int_{${1:0}}^{${2:\\infty}} ${3:f(x)} \\ d${4:x}"]
+    },
+    "integral over a domain": {
+        "prefix": ["inta"],
+        "body": ["\\int_{${1:C}} ${2:f(x)} \\ d${3:A}"]
+    },
+    "indefinite integral": {
+        "prefix": ["int"],
+        "body": ["\\int ${1:f(x)} \\ d${2:x}"]
+    },
+    "antiderivative evaluated at []": {
+        "prefix": ["|]"],
+        "body": ["\\Big[${1:F(x)}\\Big]_{${2:a}}^{${3:b}}"]
+    },
+    "antiderivative evaluated at |": {
+        "prefix": ["|"],
+        "body": ["\\ \\Big|_{${1:a}}^{${2:b}}"]
+    }
+}

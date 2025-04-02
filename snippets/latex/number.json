@@ -1,0 +1,30 @@
+{
+    "summation from zero to infinity": {
+        "prefix": ["sum0i"],
+        "body": ["\\sum_{${1:i}=0}^{\\infty}"]
+    },
+    "summation from one to infinity": {
+        "prefix": ["sum1i"],
+        "body": ["\\sum_{${1:i}=1}^{\\infty}"]
+    },
+    "summation from zero to n": {
+        "prefix": ["sum0i"],
+        "body": ["\\sum_{${1:i}=0}^{${2:n}}"]
+    },
+    "summation from one to n": {
+        "prefix": ["sum1i"],
+        "body": ["\\sum_{${1:i}=1}^{${2:n}}"]
+    },
+    "summation": {
+        "prefix": ["sum"],
+        "body": ["\\sum_{${1:i}=${2:a}}^{${3:b}}"]
+    },
+    "summation to infinity": {
+        "prefix": ["suminf"],
+        "body": ["\\sum_{${1:i}=${2:0}}^{\\infty}"]
+    },
+    "summation in a set": {
+        "prefix": ["sumset"],
+        "body": ["\\sum_{${1:x}\\in ${2:X}}"]
+    }
+}

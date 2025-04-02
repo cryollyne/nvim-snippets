@@ -1,0 +1,57 @@
+{
+    "Document": {
+        "prefix": ["!doc"],
+        "body": [
+            "\\documentclass{article}",
+            "\\title{${1:Title}}",
+            "\\author{${2:Name}}",
+            "\\date{ ${CURRENT_YEAR} ${CURRENT_MONTH_NAME} ${CURRENT_DATE} }",
+            "",
+            "\\usepackage{amsmath}",
+            "\\usepackage{cancel}",
+            "",
+            "\\begin{document}",
+            "\\maketitle",
+            "",
+            "$0",
+            "",
+            "\\end{document}"
+        ]
+    },
+    "graph": {
+        "prefix": ["graph"],
+        "body": [
+            "\\begin{tikzpicture}",
+            "     \\begin{axis}",
+            "         \\addplot [",
+            "            domain=${2:-1}:${3:1},",
+            "            samples=70,",
+            "            color=blue,",
+            "            ]",
+            "            {${1:Function}};",
+            "     \\end{axis}",
+            "\\end{tikzpicture}"
+        ],
+        "description": "graph of a function"
+    },
+    "math bold face": {
+        "prefix": ["mbf"],
+        "body": ["\\mathbf{${1:x}}"]
+    },
+    "math calligraphic": {
+        "prefix": ["mcal"],
+        "body": ["\\mathcal{${1:x}}"]
+    },
+    "math blackboard bold": {
+        "prefix": ["mbb"],
+        "body": ["\\mathbb{${1:x}}"]
+    },
+    "subscript superscript": {
+        "prefix": ["_^"],
+        "body": ["_{${1:a}}^{${2:b}}"]
+    },
+    "n times n": {
+        "prefix": ["nxn"],
+        "body": ["$${1:n}\\times ${2:m}$"]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "my-snippets",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/calculus.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/linear_algebra.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/logic.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/number.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/physics.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/probability.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/set.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/set_theory.json"
+            },
+            {
+                "language": ["plaintex", "tex"],
+                "path": "./snippets/latex/other.json"
+            }
+        ]
+    }
+}
+
