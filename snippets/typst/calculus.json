@@ -1,0 +1,57 @@
+{
+    "differential": {
+        "prefix": ["dx"],
+        "body": ["dif ${1:x}"]
+    },
+    "derivative": {
+        "prefix": ["ddx"],
+        "body": ["dif/(dif ${1:x})"]
+    },
+    "derivative evaluated at": {
+        "prefix": ["ddx="],
+        "body": ["dif/(dif ${1:x}) lr(|, size: #150%)_(${1}=${2:0})"]
+    },
+    "derivative y": {
+        "prefix": ["dydx"],
+        "body": ["(dif ${1:y})/(dif ${2:x})"]
+    },
+    "partial derivative x": {
+        "prefix": ["ppx"],
+        "body": ["partial/(partial ${1:x})"]
+    },
+    "partial derivative": {
+        "prefix": ["pypx"],
+        "body": ["(partial ${1:y})/(partial ${2:x})"]
+    },
+
+    "limit as x approches": {
+        "prefix": ["limx"],
+        "body": ["lim_(${1:x} arrow ${2:infinity})"]
+    },
+    "limit as h approches 0": {
+        "prefix": ["limh"],
+        "body": ["lim_(${1:h} arrow 0)"]
+    },
+
+    "definite integral": {
+        "prefix": ["intd"],
+        "body": ["integral_(${1:0})^(${2:infinity}) ${3:f(x)} dif ${4:x}"]
+    },
+    "integral over a domain": {
+        "prefix": ["inta"],
+        "body": ["integral_(${1:C}) ${2:f(x)} dif ${3:A}"]
+    },
+    "indefinite integral": {
+        "prefix": ["int"],
+        "body": ["integral ${1:f(x)} dif ${2:x}"]
+    },
+
+    "antiderivative evaluated at []": {
+        "prefix": ["|]"],
+        "body": ["[ ${1:F(x)} ]_(${2:a})^(${3:b})"]
+    },
+    "antiderivative evaluated at |": {
+        "prefix": ["|"],
+        "body": ["lr(|, size: #150%)_(${2:a})^(${3:b})"]
+    }
+}

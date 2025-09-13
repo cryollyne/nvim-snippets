@@ -1,0 +1,14 @@
+{
+    "Document": {
+        "prefix": ["document"],
+        "body": "#set math.mat(delim: \"[\")"
+    },
+    "$$": {
+        "prefix": ["$$"],
+        "body": [
+            "$",
+            "  ${1:}",
+            "$"
+        ]
+    }
+}

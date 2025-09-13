@@ -6,6 +6,15 @@
     "contributes": {
         "snippets": [
             {
+                "language": ["typst"],
+                "path": "./snippets/typst/calculus.json"
+            },
+            {
+                "language": ["typst"],
+                "path": "./snippets/typst/misc.json"
+            },
+
+            {
                 "language": ["plaintex", "tex"],
                 "path": "./snippets/latex/calculus.json"
             },

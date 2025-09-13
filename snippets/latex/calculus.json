@@ -24,7 +24,7 @@
         "prefix": ["limx"],
         "body": ["\\lim_{${1:x}\\to ${2:\\infty}}"]
     },
-    "limit derivative": {
+    "limit as h approches 0": {
         "prefix": ["limh"],
         "body": ["\\lim_{h\\to 0}"]
     },
